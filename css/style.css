@@ -210,6 +210,10 @@ p a {
 .submit:hover {
   opacity: 0.8;
 }
+.buttons{
+  display: flex;
+  justify-content: center;
+}
 /* MEDIA QUERY */
 
 
@@ -275,5 +279,6 @@ h1{
 .buttons{
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 }
