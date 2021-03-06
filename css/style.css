@@ -41,7 +41,7 @@ body {
 .mobile-nav-items {
   display: none;
   position: absolute;
-  top: 67px;
+  top: 58px;
   right: 25px;
   width: 300px;
 }
@@ -249,6 +249,15 @@ p a {
   justify-content: center;
   align-items: center;
 }
+h1{
+  font-size: 5vh;
+}
+.logo-text{
+  font-size: 1.5rem;
+}
+.logo-text2{
+  font-size: 3vh;
+}
 #about{
   flex-direction: column;
 }
@@ -262,5 +271,9 @@ p a {
 }
 .info{
   width: unset;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
 }
 }
